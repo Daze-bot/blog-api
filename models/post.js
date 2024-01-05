@@ -6,6 +6,7 @@ const Schema = mongoose.Schema;
 const PostSchema = new Schema ({
   title: { type: String, required: true, maxLength: 60 },
   text: { type: String, required: true },
+  published: { type: Boolean, required: true },
   dateAdded: { type: Date, required: true, default: Date.now },
 }, { timestamps: true });
 

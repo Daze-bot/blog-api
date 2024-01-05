@@ -4,7 +4,7 @@ const moment = require('moment');
 const Schema = mongoose.Schema;
 
 const CommentSchema = new Schema ({
-  commenter: { type: String, required: true, maxLength: 25 },
+  name: { type: String, required: true, maxLength: 25 },
   text: { type: String, required: true, maxLength: 1400 },
   dateAdded: { type: Date, required: true, default: Date.now },
   post: { type: Schema.Types.ObjectId, ref: "Post" }
