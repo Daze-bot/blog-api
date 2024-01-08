@@ -46,7 +46,6 @@ app.use(helmet());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes.homeRouter);
 app.use('/users', routes.usersRouter);
 app.use('/posts', routes.postsRouter);
 app.use('/posts/:postID/comments', routes.commentsRoter);
