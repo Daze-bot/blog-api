@@ -14,6 +14,7 @@ const routes = require('./routes');
 const app = express();
 
 require('dotenv').config();
+require('./authorization/passport');
 
 mongoose.set("strictQuery", false);
 
