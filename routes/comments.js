@@ -5,9 +5,9 @@ const passport = require('passport');
 
 router.get('/', comment_controller.get_all_comments);
 
-router.get('/:commentID', comment_controller.get_comment);
+router.post('/', comment_controller.new_comment);
 
-router.post('/:commentID', comment_controller.new_comment);
+router.get('/:commentID', comment_controller.get_comment);
 
 router.put('/:commentID', passport.authenticate('jwt', { session:false }), comment_controller.edit_comment);
 

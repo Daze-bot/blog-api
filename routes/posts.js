@@ -5,9 +5,9 @@ const passport = require('passport');
 
 router.get('/', post_controller.get_all_posts);
 
-router.get('/:postID', post_controller.get_post);
+router.post('/', passport.authenticate('jwt', { session:false }), post_controller.new_post);
 
-router.post('/:postID', passport.authenticate('jwt', { session:false }), post_controller.new_post);
+router.get('/:postID', post_controller.get_post);
 
 router.put('/:postID', passport.authenticate('jwt', { session:false }), post_controller.edit_post);
 
