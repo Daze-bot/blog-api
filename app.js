@@ -49,7 +49,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/users', routes.usersRouter);
 app.use('/posts', routes.postsRouter);
-app.use('/posts/:postID/comments', routes.commentsRoter);
+app.use('/posts', routes.commentsRoter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

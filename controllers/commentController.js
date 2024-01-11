@@ -71,7 +71,7 @@ exports.new_comment = [
         "success": false,
         "message": "Invalid form fields",
         "errors": errors,
-        "data": newComment
+        "data": newComment,
       });
       return;
     } else {

@@ -45,7 +45,7 @@ exports.new_post = [
   body('postTitle', "Title can not be more than 60 characters")
     .trim()
     .isLength({ max: 25 }),
-  body('postText', "Post must not be empty")
+  body('postText', "Post content must not be empty")
     .trim()
     .isLength({ min: 1 }),
 
