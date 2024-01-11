@@ -23,3 +23,22 @@ passport.use(
     }
   })
 );
+
+const opts = {
+  secretOrKey: process.env.JWT_SECRET,
+  jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
+}
+
+passport.use(
+  new JwtStrategy(opts, async (jwt_payload, done) => {
+    try {
+      const user = await User.findOne({ _id: jwt_payload.id });
+      if (!user) {
+        return done(null, false, { message: "User not found" });
+      };
+      return done(null, user);
+    } catch(err) {
+      return done(err)
+    }
+  })
+);
