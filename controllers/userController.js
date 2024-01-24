@@ -75,7 +75,7 @@ exports.log_in = [
             if (err) {
               return next(err);
             }
-            jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '48h' }, (err, token) => {
+            jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '72h' }, (err, token) => {
               if (err) {
                 return next(err);
               }
