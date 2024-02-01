@@ -3,7 +3,7 @@ const asyncHandler = require('express-async-handler');
 const { body, validationResult } = require('express-validator');
 
 exports.get_all_comments = asyncHandler(async (req, res, next) => {
-  const allComments = await Comment.find({ post: req.params.postID }).sort({ dateAdded: -1 }).exec();
+  const allComments = await Comment.find({ post: req.params.postID }).sort({ createdAt: -1 }).exec();
 
   if (allComments == null) {
     res.json({
