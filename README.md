@@ -49,5 +49,5 @@ An API only back-end that supports the <a href="https://github.com/Daze-bot/blog
 
 - GET, POST, PUT, and DELETE API calls should be directed to the appropriate <a href="https://github.com/Daze-bot/blog-api/tree/main/routes">Routes</a> in order to make changes to the database and subsequently update the front-end apps
 - Certain routes are protected and require user authorization via a JWT which is acced by calling /users/login and inputting valid credentials
-- The JWT must then be included in the request header to access protected routes
+- The JWT must be included in the request header to access protected routes
 
