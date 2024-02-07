@@ -48,17 +48,8 @@ An API only back-end that supports the <a href="https://github.com/Daze-bot/blog
 ### Usage
 
 - Navigating the menu:
-<div align="center">
-  <kbd>
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjRoMm5pczZrNHlmbmQ0ZWRqdGRiNWF0ZnNneWJoaWpndXk1ZzkxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0ZTQ7z3tNoiSM1CV8r/giphy.gif"/>
-  </kbd>
-</div>
 
 <br></br>
 
 - Submitting final score:
-<div align="center">
-  <kbd>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzM0b2tsYjQxMnN1ZXhnOTBudTd2bWJyZTFscmI3cGtwcnBqbmY2aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eaxJnze9luw7z6AJl6/giphy.gif"/>
-  </kbd>
-</div>
+
