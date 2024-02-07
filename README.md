@@ -47,7 +47,7 @@ An API only back-end that supports the <a href="https://github.com/Daze-bot/blog
 
 ### Usage
 
-- Navigating the menu:
+#### Navigating the menu:
 
 <br></br>
 
