@@ -26,6 +26,7 @@ An API only back-end that supports the <a href="https://github.com/Daze-bot/blog
 - JWT
 - Bcryptjs
 - Fly.io hosting
+- Dotenv
 
 ## Getting started
 
@@ -38,7 +39,11 @@ An API only back-end that supports the <a href="https://github.com/Daze-bot/blog
 
 - Clone the github repository
 - run ```npm install``` to install all dependencies
-- run ```npm run start``` to open a locally hosted version of the app
+- run ```npm run devstart``` to start the server and allow for API calls to localhost
+
+### Configure
+
+The MongoDB URI and Bcrypt secret codes are hidden using a .env file for security reasons.  In order for a new developer to use this API, they would either need access to those codes, or create their own database and encryption
 
 ### Usage
 
