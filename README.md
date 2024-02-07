@@ -6,7 +6,7 @@ A REST API back-end server
 
 An API only back-end that supports the <a href="https://github.com/Daze-bot/blog-consumer">Blog</a> and <a href="https://github.com/Daze-bot/blog-author">Blog Author</a> front-ends in order to make CRUD operations on the MongoDB database
 
-### <a href="https://daze-bot.github.io/photo-tagging/" target="_blank">View Live</a>
+
 
 ### Features
 
