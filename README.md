@@ -1,25 +1,31 @@
 # Blog API
 
-A Where's Waldo inspired photo tagging app
+A REST API back-end server
 
 ## Description
 
-Users must find a series of hidden images within a crowded picture in order to progress to the next round.  The user's time is kept throughout the game and upon finding all of the images, the final time is entered in the global leaderboard
+An API only back-end that supports the <a href="https://github.com/Daze-bot/blog-consumer">Blog</a> and <a href="https://github.com/Daze-bot/blog-author">Blog Author</a> front-ends in order to make CRUD operations on the MongoDB database
 
 ### <a href="https://daze-bot.github.io/photo-tagging/" target="_blank">View Live</a>
 
 ### Features
 
-- Instructions
-- Interactive gameplay
-- Leaderboards
+- MVC design pattern
+- RESTful API
+- Security handled with Passport and Bcrypt
+- Authorization handled with JSON Web Token
+- MongoDB database management
 
 ### Built with
 
-- React
-- React-Router
-- Firebase
-- GitHub pages
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose ODM
+- Passport
+- JWT
+- Bcryptjs
+- Fly.io hosting
 
 ## Getting started
 
