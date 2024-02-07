@@ -7,7 +7,7 @@ A REST API back-end server
 An API only back-end that supports the <a href="https://github.com/Daze-bot/blog-consumer">Blog</a> and <a href="https://github.com/Daze-bot/blog-author">Blog Author</a> front-ends in order to make CRUD operations on the MongoDB database
 
 ### API Calls
-- Direct fetch requests to https://daze-blog-api.fly.dev #Note#
+- Direct fetch requests to https://daze-blog-api.fly.dev ```diff #note```
 
 ### Features
 - MVC design pattern
